@@ -12,34 +12,58 @@
 
         body {
             font-family: Roboto;
-            color: #ffffff;
-            background: #343a40;
+            color: #000000;
+            background: #ffffff;
             margin: 0;
 	        padding: 0; 
         
         }
         header{
-            background-color: rgb(5, 85, 85);
+            background-color: rgba(47, 138, 199, 0.76);
             width: 100%;
-            height: 300px;
+            height: 500px;
+        }
+        #nome{
+            color: white;
+            position: relative;
+            top:-300px;
+            left:800px;
         }
 
         img {
-            width: 20%;
-            height: auto;
+            padding: 95px;
+            width:300px;
+            height:300px;
+            position: relative;
+            left:80px;
+            border-radius:120px;
+            
         }
 
         a {
-            color: #bfbfbf;
+            color: #fff9f9;
+        }
+        footer {
+            background-color: black;
+            height:100px;
+
+        }
+        li{
+            color: darkgrey;
+            float: left;
+            display: block;
+	        padding: 21px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <img src="img/download.jfif">
+        <img src="img/lucas.jpg">
+       <h1 id="nome">Lucas Ferrari</h1>
+
     </header>
-    <!-- Isso é um comentário no código -->
+
     <h1>Hello world!</h1>
     <p>Esse é um modelo muito simples de site pessoal. Você pode utilizar ele para criar seu site pessoal do curso.</p>
 
@@ -49,6 +73,12 @@
     <h2>Links</h2>
     <p><a href="https://github.com/ccuffs">Github</a></p>
     <p><a href="https://instagram.com/computacaouffs">Instagram</a></p>
+    <footer>
+        <ul>
+			<li><a href="https://github.com/ccuffs">github</a></li>
+            <li><a href="https://instagram.com/computacaouffs">Instagram</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
